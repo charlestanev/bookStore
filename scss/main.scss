@@ -15,8 +15,9 @@ section {
     --Patua: "Patua One", cursive;
     --Lobster: "lobster", cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-    --light-gray: rgba(255, 255, 255, 0.877);
+    --bggradient: linear-gradient(to bottom, rgba(17, 0, 255, 0.5), rgba(253, 0, 105, 0.6));
+    --bggradientl: linear-gradient(to bottom, rgba(17, 0, 255, 0.2), rgba(253, 0, 105, 0.2));
+    --light-gray: rgba(255, 255, 255, 0.7);
 }
 
 header a {
@@ -71,15 +72,28 @@ header .row .col-md-7 {
 }
 
 header .row .col-md-5 {
-    padding: 4.2vmin 1vmin;
+    padding-top: 8em;
 }
 
-header .row .col-md-5 img {
-    width: 90%;
+
+header .row .col-md-5 #Wrapper {
+    margin-bottom: 2em;
+    background: url(../assets/header-img.webp);
+    width: 100%;
+    height: 60vh;
 }
+
+#Content {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 179, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
 
 header {
-    background: #ff512f;
+    background: #fd00c6;
     /* fallback for old browsers */
     background: var(--bggradient);
 }
@@ -115,7 +129,7 @@ header .container .col-md-7 p {
 }
 
 .section-1 .row .col-md-6 .pray img {
-    opacity: 0.8;
+    opacity: 0.9;
     width: 80%;
     border-radius: 0.2em;
 }
@@ -153,7 +167,7 @@ header .container .col-md-7 p {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url("../assets/pexels-photo-452738.jpeg");
+    background: url("../assets/beach-exotic-img.webp");
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
@@ -171,7 +185,7 @@ header .container .col-md-7 p {
 .cover .content {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: var(--bggradientl);
     padding-top: 19vmin;
 }
 
@@ -205,7 +219,7 @@ header .container .col-md-7 p {
 
 .numbers .rect h1 {
     font-size: 5rem;
-    color: tomato;
+    color: #00d9ff;
 }
 
 .numbers .rect>p {
@@ -225,6 +239,7 @@ header .container .col-md-7 p {
 }
 
 .purchase .cards .card {
+    background: var(--bggradient);
     width: 22rem;
     margin: 3vmin 3vmin;
 }
@@ -238,6 +253,9 @@ header .container .col-md-7 p {
     background: rgba(208, 241, 241, 0.199);
     padding: 1.4em 2.5em;
     font-size: 2vmin;
+
+    border-bottom-right-radius: 170px;
+    // border-bottom-left-radius: 170px;
 }
 
 .card .card-text {
@@ -247,13 +265,13 @@ header .container .col-md-7 p {
 
 .card-body .pricing {
     background: rgba(208, 241, 241, 0.199);
-    border-top-right-radius: 170px;
+    // border-top-right-radius: 170px;
     border-top-left-radius: 170px;
 }
 
 .card-body .pricing>h1 {
-    font-size: 10vmin;
-    padding: 1em 0.5em;
+    font-size: 6vmin;
+    padding: 0.5em 0.5em;
 }
 
 /* Section 3 */
@@ -333,7 +351,7 @@ footer {
 }
 
 footer p>span {
-    color: #ff512f;
+    color: #fd00c6;
 }
 
 footer input {
