@@ -94,7 +94,6 @@ header .row .col-md-5 #Wrapper {
 
 header {
     background: #fd00c6;
-    /* fallback for old browsers */
     background: var(--bggradient);
 }
 
@@ -255,7 +254,6 @@ header .container .col-md-7 p {
     font-size: 2vmin;
 
     border-bottom-right-radius: 170px;
-    // border-bottom-left-radius: 170px;
 }
 
 .card .card-text {
@@ -265,7 +263,6 @@ header .container .col-md-7 p {
 
 .card-body .pricing {
     background: rgba(208, 241, 241, 0.199);
-    // border-top-right-radius: 170px;
     border-top-left-radius: 170px;
 }
 
@@ -370,8 +367,6 @@ footer .input-group .input-group-text {
 footer .column i {
     color: #dd2476;
 }
-
-/* It is Adjacent sibling combinator */
 
 footer .column i+i {
     padding: 0 0.5em;
